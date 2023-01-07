@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Talk Banana</title>
+
+    <style>
+      textarea {
+        width: 80%;
+        height: 10vh;
+        display: block;
+        margin: 1rem;
+        padding: 1rem;
+      }
+
+      #txt-output {
+        border: 1px solid black;
+        width: 80%;
+        height: 10vh;
+        margin: 1rem;
+        padding: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Talk Banana Language</h1>
+
+    <textarea
+      id="txt-input"
+      placeholder="Put your text to be converted into Banana Language."
+    ></textarea>
+
+    <button id="btn-translate">Translate</button>
+
+    <div style="font-size: large">Output will be shown here :</div>
+    <div id="txt-output"></div>
+    <script src="app.js" include="text/javascript"></script>
+  </body>
+</html>
